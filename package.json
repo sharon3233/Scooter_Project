@@ -1,0 +1,22 @@
+{
+  "name": "scooter_project",
+  "version": "1.0.0",
+  "description": "As an {user}",
+  "main": "User.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharon3233/Scooter_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharon3233/Scooter_Project/issues"
+  },
+  "homepage": "https://github.com/sharon3233/Scooter_Project#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
