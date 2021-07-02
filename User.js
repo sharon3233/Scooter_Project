@@ -4,6 +4,7 @@ class User {
         this.lastName = lastName
         this.dob = dob
         this.email = email
+        this.scooter = null
     }
 }
 

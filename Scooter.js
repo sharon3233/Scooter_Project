@@ -22,10 +22,25 @@ class Scooter {
 
     }
 
+    rentScooter(){
+        this.charged = false
+    }
+
+    returnScooter(){
+        if(this.charged === false){
+            console.log('will charge berfore leaving')
+            this.charged = true
+        }
+    }
+
+    
+
     async charge() {
         console.log('Starting charge');
 
         await new Promise(resolve => setTimeout(resolve, 2000)); // wait 2 seconds
+
+        this.charged = true
 
         console.log('Charge complete');
   
